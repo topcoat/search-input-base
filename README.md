@@ -1,7 +1,7 @@
-search-input-base
+Topcoat Search Input Base
 =================
 
-This is the base for Topcoat search input
+Search input base styles.
 
 [![Build Status](https://travis-ci.org/topcoat/search-input-base.png?branch=master)](https://travis-ci.org/topcoat/search-input-base)
 
