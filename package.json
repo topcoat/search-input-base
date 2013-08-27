@@ -1,7 +1,7 @@
 {
   "name": "topcoat-search-input-base",
-  "version": "0.1.0",
-  "description": "Topcoat search input base. Reset styles for search inputs.",
+  "version": "0.0.0",
+  "description": "Topcoat search input base styles.",
   "main": "index.html",
   "directories": {
     "test": "test",
