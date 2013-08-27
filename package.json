@@ -1,0 +1,41 @@
+{
+  "name": "topcoat-search-input-base",
+  "version": "0.1.0",
+  "description": "Topcoat search input base. Reset styles for search inputs.",
+  "main": "index.html",
+  "directories": {
+    "test": "test",
+    "lib": "src",
+    "bin": "css"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topcoat/search-input-base.git"
+  },
+  "keywords": [
+    "input",
+    "search",
+    "css",
+    "topcoat",
+    "base",
+    "reset",
+    "adobe"
+  ],
+  "license": "Apache2",
+  "devDependencies": {
+    "grunt-contrib-stylus": "~0.6.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-jade": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-simple-mocha": "~0.4.0"
+  },
+  "dependencies": {
+    "topcoat-utils": "~0.1.1"
+  }
+}
