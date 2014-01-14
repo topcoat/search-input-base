@@ -15,3 +15,11 @@
 * limitations under the License.
 *
 */
+@import "./src/search-input.css";
+
+.search-input {
+  extend: %search-input;
+}
+.search-input:disabled {
+  extend: %search-input--disabled;
+}

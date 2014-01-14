@@ -1,20 +1,3 @@
-/**
-*
-* Copyright 2012 Adobe Systems Inc.;
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
 .search-input {
   padding: 0;
   margin: 0;
@@ -22,17 +5,37 @@
   color: inherit;
   background: transparent;
   border: none;
-  box-sizing: border-box;
-  background-clip: padding-box;
+}
+
+.search-input {
   vertical-align: top;
   outline: none;
-  -webkit-appearance: none;
 }
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
+
+.search-input {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-clip: padding-box;
 }
+
 .search-input:disabled {
   opacity: 0.3;
   cursor: default;
   pointer-events: none;
+}
+
+/* topdoc
+  name: Search Input base
+  markup:
+    <input type="search" class="search-input" placeholder="search">
+  example:
+    http://codepen.io/Topcoat/pen/Kgbtn
+*/
+
+.search-input {
+  -webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
 }
