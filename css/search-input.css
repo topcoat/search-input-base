@@ -24,14 +24,6 @@
   pointer-events: none;
 }
 
-/* topdoc
-  name: Search Input base
-  markup:
-    <input type="search" class="search-input" placeholder="search">
-  example:
-    http://codepen.io/Topcoat/pen/Kgbtn
-*/
-
 .search-input {
   -webkit-appearance: none;
 }
