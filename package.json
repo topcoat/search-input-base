@@ -1,6 +1,6 @@
 {
   "name": "topcoat-search-input-base",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Topcoat search input base styles.",
   "main": "index.html",
   "style": "src/search-input.css",
