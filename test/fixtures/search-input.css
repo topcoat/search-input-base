@@ -15,20 +15,11 @@
 * limitations under the License.
 *
 */
-@import utils
-/* topdoc
-  name: Search Input base
-  markup:
-    <input type="search" class="search-input" placeholder="search">
-  example:
-    http://codepen.io/Topcoat/pen/Kgbtn
-*/
-.search-input
-  reset-input()
-  -webkit-appearance none
+@import "./src/search-input.css";
 
-input[type="search"]::-webkit-search-cancel-button
-    -webkit-appearance none
-
-.search-input:disabled
-  disabled()
+.search-input {
+  extend: %search-input;
+}
+.search-input:disabled {
+  extend: %search-input--disabled;
+}
